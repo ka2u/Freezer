@@ -14,6 +14,7 @@ WriteMakefile(
         'Git::Repository'                 => '1.21',
         'DBIx::Skinny'                    => '0.0741',
         'Qudo'                            => '0.0213',
+        'File::Temp'                      => '0.22',
     },
     MIN_PERL_VERSION => '5.008001',
     (-d 'xt' and $ENV{AUTOMATED_TESTING} || $ENV{RELEASE_TESTING}) ? (
